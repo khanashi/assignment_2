@@ -1,0 +1,360 @@
+/* styles.css */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 40px;
+    
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover, .dropdown:hover .dropbtn {
+    background-color: #b4201b;
+    color: black;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #d86262;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* styles.css */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .category {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .category h2 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* styles.css */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .cart {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cart-item {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cart-item h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .cart-item label {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .cart-item input[type="number"] {
+    width: 50px;
+  }
+  
+  .cart-item .remove-item {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* styles.css */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .payment-receipt {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-receipt h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .return-link {
+    display: block;
+    margin: 20px;
+  }
+ /* styles.css */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .contact-details {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: blue;
+  }
+  
+  .contact-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgb(29, 29, 34);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .social-link {
+    text-decoration: none;
+    color: #0c17bb;
+    margin-right: 10px;
+  }
+  
+  .social-link:hover {
+    color: #555;
+  }
+   /* styles.css */
+/* Add your styles for the slideshow here */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides img {
+  display: none;
+  width: 100%;
+}
+
+/* Book information style */
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+/* Book information text style */
+.mySlides h2,
+.mySlides p {
+  margin: 5px 0;
+}
+
+/* Book information image style */
+.mySlides img {
+  margin-top: 10px;
+}
+
+/* Navigation buttons style (if added) */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, change background color */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

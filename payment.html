@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Receipt</title>
+  <style>
+    /* Reset default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the page */
+header {
+  background-color: #333; /* Change background color as needed */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #444; /* Change background color as needed */
+  padding: 10px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style for receipt details */
+#receiptDetails {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9; /* Change background color as needed */
+}
+
+  </style>
+</head>
+<body style="background-color: rgb(207, 194, 196);">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Book Categories</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <h1>Payment Receipt</h1>
+  </header>
+  
+  <main>
+    <section id="receiptDetails">
+      <!-- Payment details will be dynamically loaded here -->
+    </section>
+  </main>
+
+  <script>
+    // Sample payment details (replace this with your actual data)
+const paymentDetails = {
+  items: [
+    { title: "To Kill a Mockingbird", price: 12.99 },
+    { title: "1984", price: 9.99 },
+    // Add more items as needed
+  ],
+  total: 22.98 // Calculate the total dynamically based on the items
+};
+
+// Function to display payment details on the page
+function displayPaymentDetails() {
+  const receiptDetails = document.getElementById("receiptDetails");
+
+  const itemList = document.createElement("ul");
+  paymentDetails.items.forEach(item => {
+    const listItem = document.createElement("li");
+    listItem.textContent = `${item.title}: $${item.price}`;
+    itemList.appendChild(listItem);
+  });
+
+  const totalAmount = document.createElement("p");
+  totalAmount.textContent = `Total: $${paymentDetails.total}`;
+
+  receiptDetails.appendChild(itemList);
+  receiptDetails.appendChild(totalAmount);
+}
+
+// Invoke the function to display payment details when the page loads
+window.onload = displayPaymentDetails;
+
+  </script>
+</body>
+</html>
